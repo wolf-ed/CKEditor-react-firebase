@@ -8,7 +8,7 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 
 const CreatePost = ({ isAuth }) => {
     const [title, setTitle] = useState('');
-    const [postText, setPostText] = useState('');
+    // const [postText, setPostText] = useState('');
     let navigate = useNavigate()
     const [text, setText] = useState('');
 
