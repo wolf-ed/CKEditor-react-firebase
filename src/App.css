@@ -74,7 +74,6 @@ a {
   min-height: 20rem;
   color: black;
 }
-
 .inputGp input,
 .inputGp textarea {
   font-size: 18px;
@@ -87,8 +86,7 @@ a {
   height: 40px;
 }
 .inputGp textarea {
-  /* height: 150px; */
-  height: 20rem;
+  height: 150px;
 }
 
 .cpContainer button {
@@ -149,7 +147,6 @@ textarea {
   box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25),
     0 0 0 3px #c8dafc;
 }
-
 .login-with-google-btn:disabled {
   filter: grayscale(100%);
   background-color: #ebebeb;
@@ -229,8 +226,9 @@ textarea {
 }
 
 @media (min-width: 200px) and (max-width: 700px) {
-  .homePage .post {
-    max-width: 90%;
+  .homePage .post,
+  .cpContainer {
+    max-width: 90vw;
     margin: 10px;
     padding: 10px;
   }
@@ -240,8 +238,7 @@ textarea {
   .postTextContainer::-webkit-scrollbar {
     width: 13px;
   }
-  .cpContainer {
-    width: 90%;
-    margin: 10px;
+  .inputGp {
+    max-width: 90vw;
   }
 }
