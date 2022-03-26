@@ -4,7 +4,7 @@ import { postsCollectionRef } from "../../App";
 import { AiOutlineDelete } from 'react-icons/ai'
 import { auth, db } from "../../firebase-configuration";
 import parse from 'html-react-parser';
-
+import './Home.css'
 
 const Home = ({ isAuth }) => {
     const [postLists, setPostList] = useState([]);
