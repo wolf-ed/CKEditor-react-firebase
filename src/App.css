@@ -12,7 +12,7 @@ body {
 .navbar {
   max-height: fit-content;
   width: 100%;
-  background-color: black;
+  background-color: rgb(8, 116, 204);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,10 +30,12 @@ body {
   /* border: black 2px solid; */
   height: 100%;
   text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-  background-color: #757575;
+  /* background-color: #757575; */
+  background-color: #065799;
   /* border: #757575 2px solid; */
 }
 

@@ -6,10 +6,10 @@
 }
 
 .cpContainer {
-  width: 500px;
+  width: 40rem;
   height: auto;
   padding: 20px;
-  background-color: black;
+  background-color: rgb(8, 116, 204);
   border-radius: 12px;
   color: white;
   display: flex;
@@ -48,12 +48,19 @@
 }
 
 .cpContainer button {
+  background-color: #065799;
   margin-top: 20px;
   height: 40px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+.submitBtn:hover {
+  background-color: #4895d5;
+  cursor: pointer;
 }
 input,
 textarea {

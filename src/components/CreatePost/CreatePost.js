@@ -69,7 +69,7 @@ const CreatePost = ({ isAuth }) => {
 
                 />
             </div>
-            <button
+            <button className="submitBtn"
                 onClick={createPost}
             >Submit Post</button>
         </div>

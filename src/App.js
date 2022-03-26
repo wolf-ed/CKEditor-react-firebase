@@ -23,6 +23,12 @@ function App() {
     })
   };
 
+  if (navbarOptionsClass === 'navbar-options active') {
+    setTimeout(() => {
+      setNavbarOptionsClass('navbar-options')
+    }, 10000)
+  }
+
   const toggleNavbarClass = () => {
     if (navbarOptionsClass === 'navbar-options') {
       setNavbarOptionsClass('navbar-options active')

@@ -37,10 +37,14 @@
 
 .deletePost button {
   border: none;
-
   background: none;
   font-size: 30px;
   cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.deletePost button:hover {
+  color: red;
 }
 
 .post .postTextContainer {
