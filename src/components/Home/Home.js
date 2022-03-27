@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getDocs, deleteDoc, doc } from 'firebase/firestore';
 import { postsCollectionRef } from "../../App";
-import { AiOutlineDelete } from 'react-icons/ai'
+import { AiOutlineDelete } from 'react-icons/ai';
 import { auth, db } from "../../firebase-configuration";
 import parse from 'html-react-parser';
 import './Home.css'

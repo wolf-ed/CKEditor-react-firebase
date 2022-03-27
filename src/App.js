@@ -8,7 +8,9 @@ import { signOut } from 'firebase/auth';
 import { auth } from './firebase-configuration';
 import { collection } from 'firebase/firestore';
 import { db } from './firebase-configuration';
-import { HiMenu } from 'react-icons/hi'
+import { HiMenu } from 'react-icons/hi';
+import { AiFillHome } from 'react-icons/ai';
+import { IoIosCreate } from 'react-icons/io';
 
 function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem('isAuth'));
@@ -46,11 +48,11 @@ function App() {
         <HiMenu />
       </button>
       <div className={navbarOptionsClass}>
-        <Link to="/" onClick={toggleNavbarClass}>Home</Link>
+        <Link to="/" onClick={toggleNavbarClass}><AiFillHome /></Link>
 
         {!isAuth
           ? <Link to="/login" onClick={toggleNavbarClass}>Login</Link>
-          : <><Link to="/createpost" onClick={toggleNavbarClass}>Create Post</Link> <div className='logoutBtn' onClick={signUserOut}>Logout</div></>}
+          : <><Link to="/createpost" onClick={toggleNavbarClass}><IoIosCreate /></Link> <div className='logoutBtn' onClick={signUserOut}>Logout</div></>}
 
       </div>
     </nav>
