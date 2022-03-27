@@ -17,9 +17,10 @@ This is a one page react app Blog, where you can log in using your Google accoun
 
 * React- JavaScript
 * Firebase
-* CKEditor
+* CKEditor: https://ckeditor.com/docs/ckeditor5/latest/installation/getting-started/frameworks/react.html
 * React Router
 * HTML and CSS
+* HTML-React-Parser: https://www.npmjs.com/package/html-react-parser
 * VisualStudio Code
 * Responsive design
 * Git - GitHub
